@@ -64,13 +64,17 @@ table {
   justify-self: center;
 }
 
+.navigation li {
+  padding: 20px;
+}
+
 .componentpage {
   grid-area: componentpage;
 }
 
 .container {
   display: grid;
-  grid-template-columns: 100px 50px 50px auto 100px;
+  grid-template-columns: 20px 50px 50px auto 100px;
   grid-template-rows: auto;
   grid-gap: 20px;
   grid-template-areas: '. navigation . componentpage'

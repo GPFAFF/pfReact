@@ -21,6 +21,7 @@ export default class Docs extends Component {
     const {route} = this.state;
     const component = route ? componentData.filter(component => component.name === route)[0] : componentData[0];
 
+
     return (
       <div className='container'>
         <Navigation components={componentData.map(component => component.name)} />
