@@ -1,5 +1,10 @@
-
 /* Global styles */
+#root>h1 {
+  text-align: center;
+  font-size: 60px;
+  line-height: 1;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -16,7 +21,8 @@ code {
     monospace;
 }
 
-a, a:visited {
+a,
+a:visited {
   color: #666666;
 }
 
@@ -24,12 +30,13 @@ td {
   border-top: solid 1px #d3d3d3;
 }
 
-td, th {
+td,
+th {
   padding: 10px;
 }
 
 table {
-  border-collapse:collapse;
+  border-collapse: collapse;
 }
 
 /* Documentation site component styles */
@@ -41,18 +48,19 @@ table {
 }
 
 .example h4:first-of-type {
-   margin-top: 0;
+  margin-top: 0;
 }
 
 .example p:last-of-type {
-   margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .props tr td:last-of-type {
   text-align: center;
 }
 
-.props th, td {
+.props th,
+td {
   text-align: left;
   padding: 5px;
 }
@@ -62,14 +70,23 @@ table {
   padding: 0;
   grid-area: navigation;
   justify-self: center;
+  margin-top: 0;
 }
 
 .navigation li {
   padding: 20px;
 }
 
+.navigation li:first-child {
+  padding-top: 0;
+}
+
 .componentpage {
   grid-area: componentpage;
+}
+
+h2 {
+  margin: 0 0 20px;
 }
 
 .container {

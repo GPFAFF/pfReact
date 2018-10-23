@@ -50,7 +50,8 @@ Icon.propTypes = {
   className: PropTypes.string,
   iconHeight: PropTypes.string,
   iconWidth: PropTypes.string,
-  iconName: PropTypes.string,
+  /* The iconName is pulled from iconList to dynamically load whatever icon name you pass the component. */
+  iconName: PropTypes.string.isRequired,
   backgroundColor: PropTypes.string,
   fill: PropTypes.string,
 }

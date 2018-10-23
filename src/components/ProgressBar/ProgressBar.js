@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types';
 
+/* Progress bar which will visually display the users place in a form or checkout flow.*/
 class ProgressBar extends Component {
 
   getColor = (percent) => {
@@ -30,10 +31,8 @@ class ProgressBar extends Component {
 ProgressBar.propTypes = {
   /** Percent of progress completed */
   percent: PropTypes.number.isRequired,
-
   /** Bar width */
   width: PropTypes.number.isRequired,
-
   /** Bar height */
   height: PropTypes.number
 };

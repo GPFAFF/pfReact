@@ -23,10 +23,13 @@ export default class Docs extends Component {
 
 
     return (
-      <div className='container'>
-        <Navigation components={componentData.map(component => component.name)} />
-        <ComponentPage component={component} />
-      </div>
+      <React.Fragment>
+        <h1>(PF)REACT COMPONENT LIBRARY</h1>
+        <div className='container'>
+          <Navigation components={componentData.map(component => component.name)} />
+          <ComponentPage component={component} />
+        </div>
+      </React.Fragment>
     )
   }
 }
