@@ -28,6 +28,7 @@ class Icon extends Component {
         return (
           <div className={className}
             style={iconStyle}
+            key={i}
           >
             <Icon
               style={{
@@ -35,7 +36,6 @@ class Icon extends Component {
                 padding: '10px',
                 fill: {fill}
               }}
-              key={i}
               inline='true'
               iconName={iconName}
             />
