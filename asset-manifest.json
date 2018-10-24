@@ -1,7 +1,7 @@
 {
   "main.css": "/pfReact/static/css/main.846f9beb.chunk.css",
-  "main.js": "/pfReact/static/js/main.24a25106.chunk.js",
-  "main.js.map": "/pfReact/static/js/main.24a25106.chunk.js.map",
+  "main.js": "/pfReact/static/js/main.60f07133.chunk.js",
+  "main.js.map": "/pfReact/static/js/main.60f07133.chunk.js.map",
   "static/css/1.36de567d.chunk.css": "/pfReact/static/css/1.36de567d.chunk.css",
   "static/js/1.30b9f35a.chunk.js": "/pfReact/static/js/1.30b9f35a.chunk.js",
   "static/js/1.30b9f35a.chunk.js.map": "/pfReact/static/js/1.30b9f35a.chunk.js.map",
@@ -10,6 +10,6 @@
   "static/css/1.36de567d.chunk.css.map": "/pfReact/static/css/1.36de567d.chunk.css.map",
   "static/css/main.846f9beb.chunk.css.map": "/pfReact/static/css/main.846f9beb.chunk.css.map",
   "index.html": "/pfReact/index.html",
-  "precache-manifest.b69b88f85e480f01e56f93448fba7e1e.js": "/pfReact/precache-manifest.b69b88f85e480f01e56f93448fba7e1e.js",
+  "precache-manifest.c3ff53cee2d5a82accfde12b0f582f65.js": "/pfReact/precache-manifest.c3ff53cee2d5a82accfde12b0f582f65.js",
   "service-worker.js": "/pfReact/service-worker.js"
 }
