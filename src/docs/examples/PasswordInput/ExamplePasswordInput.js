@@ -22,10 +22,8 @@ class ExamplePasswordInput extends Component {
         <PasswordInput
           htmlId='password-input'
           name='password'
-          onChange={event => this.setState({
-            password: event.target
-          })}
-          defaultValue={this.state.password}
+          onChange={ event => this.setState({ password: event.target.value })}
+          value={this.state.password}
           minLength={8}
           showVisibilityToggle
           quality={this.getQuality()}
