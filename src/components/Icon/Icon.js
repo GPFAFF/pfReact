@@ -60,9 +60,9 @@ Icon.defaultProps = {
   className: '',
   iconHeight: '48px',
   iconWidth: '48px',
-  iconName: 'A',
-  backgroundColor: '#333',
-  fill: '#FFF'
+  iconName: 'HomeIcon',
+  backgroundColor: 'transparent',
+  fill: '#333'
 }
 
 

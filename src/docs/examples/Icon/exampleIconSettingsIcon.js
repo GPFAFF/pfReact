@@ -3,5 +3,5 @@ import Icon from 'pfreact/Icon';
 
 /** Settings Icon */
 export default function SettingsIcon() {
-  return <Icon iconName='SettingsIcon' fill="#FF0" />
+  return <Icon iconName='SettingsIcon' />
 }

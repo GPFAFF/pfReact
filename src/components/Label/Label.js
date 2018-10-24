@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './Label.scss';
 
 /* Label with required field display, htmlFor attribute and styling */
-const Label = ({htmlFor, label, style, required}) => (
+const Label = ({className, htmlFor, label, style, required}) => (
   <label
-    style={{display: style}}
+    className={className}
     htmlFor={htmlFor}
-  >{label} {required && <span style={{color: 'red'}}>*</span>}
+  >{label} {required && <span className={`${className}__required`}>*</span>}
   </label>
 )
 
@@ -21,8 +22,6 @@ Label.propTypes = {
   style: PropTypes.string
 }
 
-Label.defaultProps = {
-  style: 'block'
-}
+Label.defaultProps = {}
 
 export default Label;
