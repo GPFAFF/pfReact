@@ -27,7 +27,7 @@ class ExamplePasswordInput extends Component {
           })}
           defaultValue={this.state.password}
           minLength={8}
-          togglePasswordVisiblity
+          showVisibilityToggle
           quality={this.getQuality()}
           {...this.props}
         />
