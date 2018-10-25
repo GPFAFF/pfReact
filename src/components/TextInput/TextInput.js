@@ -6,7 +6,7 @@ import Label from '../Label';
 function TextInput({htmlId, name, label, type = "text", required = false, onChange, placeholder, value, error, children, ...props}) {
   return (
     <div style={{marginBottom: 16}}>
-      <Label htmlFor={htmlId} label={label} required={required} />
+      <Label className='Label' htmlFor={htmlId} label={label} required={required} />
       <input
         id={htmlId}
         type={type}
