@@ -2,6 +2,18 @@
   color: green;
   display: block;
 
+  &__text {
+    color: #333;
+    font-size: 16px;
+    font-family: monospace;
+    // left: 20px;
+    margin: 8px;
+    // position: absolute;
+    // top: -47px;
+    // transition: top .2s ease, font-size .2s ease, color .2s ease;
+    // z-index: 10;
+  }
+
   &__required {
     color: red;
   }

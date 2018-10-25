@@ -7,7 +7,9 @@ const Label = ({className, htmlFor, label, required }) => (
   <label
     className={className}
     htmlFor={htmlFor}
-  >{label} {required && <span className={`${className}__required`}>*</span>}
+  >
+    <span className={`${className}__text`}>{label}</span>
+    {required && <span className={`${className}__required`}>*</span>}
   </label>
 )
 
