@@ -1,4 +1,4 @@
 
 #pfReact Component Library
 
-## A collection of accessibile components
+## A collection of accessible components
