@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/pfReact/precache-manifest.737162a12091900c65a4f249d9f8df57.js"
+  "/pfReact/precache-manifest.aa3c3b29af99e5ac8fd82b2386489ae6.js"
 );
 
 workbox.clientsClaim();
