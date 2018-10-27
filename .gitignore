@@ -32,3 +32,6 @@ yarn-error.log*
 
 # VSCode launch config
 launch.json
+
+#Notes
+notes.md

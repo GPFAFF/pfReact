@@ -1,7 +1,7 @@
 {
   "name": "pfreact",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://gpfaff.github.io/pfReact/",
   "dependencies": {
     "@babel/core": "7.1.0",
@@ -72,7 +72,9 @@
     "docs": "node scripts/generateComponentData.js",
     "watch": "npm run docs -- --watch",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "build:css": "cpx \"./src/components/**/*.scss\" ./lib",
+    "prebuild:lib": "rimraf lib"
   },
   "eslintConfig": {
     "extends": "react-app"
